@@ -1,0 +1,26 @@
+{
+    "name": "loyalty-sdk",
+    "version": "1.0.0",
+    "description": "A TypeScript SDK for interacting with LoyaltyToken contracts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "echo \"No tests yet\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://https://github.com/Ardelerro/ETH-Loyalty-Points"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "chai": "^4.3.8",
+        "ethers": "^5.0.5",
+        "mocha": "^10.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.5.7",
+        "typescript": "^5.2.2"
+    }
+}

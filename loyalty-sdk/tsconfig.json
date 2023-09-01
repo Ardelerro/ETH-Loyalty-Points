@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",
+      "strict": true,
+      "outDir": "./dist",
+      "declaration": true,
+      "esModuleInterop": true,
+      "types": ["node"],
+      "paths": {
+        "LoyaltySDK" :["./dist/index"]
+      }
+    },
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
